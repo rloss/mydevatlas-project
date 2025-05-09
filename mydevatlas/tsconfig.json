@@ -11,3 +11,13 @@
   },
   "include": ["src"]
 }
+
+{
+  "compilerOptions": {
+    // 기존 설정 유지
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "ESNext",            // 대부분 이 상태일 것
+    "moduleResolution": "Node"     // 이거도 꼭 있어야 함
+  }
+}

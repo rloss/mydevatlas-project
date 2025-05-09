@@ -1,0 +1,98 @@
+{
+  "Frontend": {
+    "description": "사용자 인터페이스와 브라우저 내 로직을 담당하는 기술들",
+    "color": "#F87171",
+    "nodes": [
+      {
+        "id": "html",
+        "name": "HTML",
+        "type": "markup",
+        "tier": "core",
+        "summary": "웹 페이지의 구조를 정의하는 마크업 언어",
+        "docs": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "related": ["css", "javascript"]
+      },
+      {
+        "id": "react",
+        "name": "React",
+        "type": "framework",
+        "tier": "mainstream",
+        "summary": "컴포넌트 기반의 UI 라이브러리",
+        "docs": "https://react.dev",
+        "related": ["vite", "typescript"]
+      }
+    ]
+  },
+  "Backend": {
+    "description": "서버 로직과 API 처리를 담당하는 기술들",
+    "color": "#60A5FA",
+    "nodes": [
+      {
+        "id": "nodejs",
+        "name": "Node.js",
+        "type": "runtime",
+        "tier": "core",
+        "summary": "JavaScript로 서버를 만들 수 있게 해주는 런타임",
+        "docs": "https://nodejs.org",
+        "related": ["express"]
+      },
+      {
+        "id": "express",
+        "name": "Express.js",
+        "type": "framework",
+        "tier": "mainstream",
+        "summary": "Node.js 기반의 라이트한 웹 프레임워크",
+        "docs": "https://expressjs.com",
+        "related": ["nodejs"]
+      }
+    ]
+  },
+  "Database": {
+    "description": "데이터 저장, 검색, 관리 기술들",
+    "color": "#34D399",
+    "nodes": [
+      {
+        "id": "postgresql",
+        "name": "PostgreSQL",
+        "type": "relational",
+        "tier": "core",
+        "summary": "강력하고 확장 가능한 오픈소스 SQL DB",
+        "docs": "https://www.postgresql.org",
+        "related": ["prisma"]
+      },
+      {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "type": "nosql",
+        "tier": "mainstream",
+        "summary": "문서 기반 NoSQL 데이터베이스",
+        "docs": "https://www.mongodb.com",
+        "related": ["mongoose"]
+      }
+    ]
+  },
+  "DevOps": {
+    "description": "CI/CD, 인프라, 배포 등 개발 운영 기술",
+    "color": "#A78BFA",
+    "nodes": [
+      {
+        "id": "docker",
+        "name": "Docker",
+        "type": "container",
+        "tier": "core",
+        "summary": "컨테이너 기반 앱 배포 플랫폼",
+        "docs": "https://www.docker.com",
+        "related": ["kubernetes"]
+      },
+      {
+        "id": "github-actions",
+        "name": "GitHub Actions",
+        "type": "ci",
+        "tier": "mainstream",
+        "summary": "GitHub 기반 CI/CD 자동화 도구",
+        "docs": "https://docs.github.com/en/actions",
+        "related": []
+      }
+    ]
+  }
+}
